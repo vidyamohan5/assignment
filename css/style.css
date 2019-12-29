@@ -1,0 +1,497 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#headerBlock {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+
+}
+
+.logoandadds {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.logoandadds figure {
+    flex: 4;
+    margin: 0;
+}
+
+.logoandadds>div>* {
+    margin: 0;
+}
+
+.logoandadds>div:nth-child(2) {
+    flex: 4;
+    text-align: right;
+    text-transform: uppercase;
+    color: #2c683c;
+
+    margin: 5px 30px;
+    font-weight: lighter;
+}
+
+.logoandadds>div:nth-child(2)>h5 {
+    font-size: 16px;
+}
+
+.logoandadds>div:nth-child(2)>h6 {
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 1px 2px;
+}
+
+.logoandadds>div:nth-child(3) {
+    flex: 3;
+    color: #47ca6f;
+    font-size: 26px;
+}
+
+#headerBlock>nav>ul {
+    display: flex;
+    box-shadow: 1px 1px 1px #eeee;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    box-shadow: 1px 1px 3px 3px #eeee;
+}
+
+#headerBlock>nav>ul>li {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex: auto;
+
+}
+
+#headerBlock>nav>ul>li:hover,
+#headerBlock>nav>ul>li.active {
+    border-bottom: 3px solid #47ca6f;
+}
+
+#headerBlock>nav>ul>li:first-child {
+    border-bottom: 3px solid #47ca6f;
+}
+
+
+
+#headerBlock>nav>ul>li>a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#headerBlock>nav>ul>li:nth-child(4)>a {
+    position: relative;
+}
+
+i {
+    border: solid black;
+    border-width: 0px 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+    top: 4px;
+    right: -16px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+
+/* testiminail block */
+#testimonial {
+    background: #afacac;
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+
+
+#testimonial>article#innerBlock {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#testimonial>article#innerBlock>header {
+    text-align: center;
+}
+
+#testimonial>article#innerBlock>header>h1 {
+    font-size: 7em;
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 0.5em;
+    font-stretch: semi-condensed;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+
+#testimonial>article#innerBlock>footer {
+    display: flex;
+    background: #47ca6f;
+    align-items: center;
+    padding: 4em;
+}
+
+#testimonial>article#innerBlock>footer>div:nth-child(1) {
+    flex: 4;
+}
+
+#testimonial>article#innerBlock>footer>div:nth-child(2) {
+    flex: 6;
+}
+
+.quote blockquote {
+    border: 10px solid #fff;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 130px;
+    margin: 0;
+    color: #2c683c;
+}
+
+
+
+.quote {
+    display: flex;
+    align-items: center;
+}
+
+.quote nav {
+    transform: rotate(90deg);
+}
+
+.quote nav a {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 8px;
+    text-indent: -9999px;
+    border: 2px solid #2c683c;
+    border-radius: 100%;
+}
+
+.quote nav a.active {
+    background: #2c683c;
+}
+
+.paraText {
+    flex: 8;
+    color: #fff;
+    line-height: 36px;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0px;
+}
+
+#testimonial>article#innerBlock>footer>.quote>nav {
+    margin: 0px 16px;
+    flex: 6;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* photoBlock css */
+#photoBlock {
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+#photoBlock article {
+    display: flex;
+    align-items: center;
+    background: #4f6153;
+    color: #fff;
+}
+
+#photoBlock article>div:first-child {
+    flex: 6;
+}
+
+#photoBlock article>div:last-child {
+    flex: 6;
+}
+
+#photoBlock article>div:last-child>figure {
+    max-width: 100%;
+    margin: 0;
+}
+
+#photoBlock article>div:last-child>figure>img {
+    width: 100%;
+}
+
+.paraClass {
+    padding: 0px 86px 40px 145px;
+    font-size: 14px;
+}
+
+.paraClass h1 {
+    text-transform: capitalize;
+    font-size: 29px;
+    line-height: 18px;
+    font-weight: 100;
+}
+
+.border-hr {
+    border-bottom: 1px solid #47ca6f;
+    width: 25%;
+}
+
+/* case block */
+#caseTurn {
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+#caseTurn>article {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#caseTurn>article>div:nth-child(1) {
+    flex: 6;
+}
+
+#caseTurn>article>div:nth-child(1)>p {
+    padding: 31px 27px;
+    font-size: 14px;
+    width: 44%;
+}
+
+#caseTurn>article>div:nth-child(1)>p::before {
+    content: '';
+    height: 100%;
+    width: 1px;
+    border: 2px solid #47ca6f;
+    line-height: 25px;
+    position: relative;
+    left: -30px;
+
+}
+
+#caseTurn>article {
+    position: relative;
+}
+
+.rightTurn {
+    background: #fff;
+    box-shadow: 1px 2px 3px 1px #eee;
+    padding: 30px 80px 80px;
+    width: 22%;
+    position: absolute;
+    right: 119px;
+    top: -88px;
+    text-align: left;
+}
+
+.rightTurn>h1 {
+    text-transform: capitalize;
+    font-weight: 100;
+    line-height: 15px;
+}
+
+.rightTurn button {
+    display: inline-block;
+    background: #47ca6f;
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* contactForm */
+#contactForm {
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    background: url('../images/bg-attorney-image.jpg');
+
+    background-size: cover;
+}
+
+#contactForm article {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+#contactForm .formClasses>header {
+    display: flex;
+}
+
+#contactForm .formClasses>header>div {
+    flex: 1;
+}
+
+#contactForm .formClasses>header>div>input {
+    width: 90%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin: 10px 20px 0px 0px;
+    padding: 16px 0px;
+
+}
+
+#contactForm h1 {
+    font-size: 40px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 41px 0px 0px;
+}
+
+#contactForm .text {
+    color: #fff;
+    text-transform: capitalize;
+
+}
+
+#contactForm .formClasses>header>div:nth-child(3)>input {
+    width: 100%;
+}
+
+.textarea>input {
+    width: 100%;
+
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin: 10px 20px 0px 0px;
+    padding: 30px 0px;
+
+}
+
+#contactForm .formClasses>div>input:focus {
+    border: none;
+}
+
+#contactForm .formClasses>header>div>input::placeholder,
+.textarea>input::placeholder {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.textarea>input::placeholder {
+    padding: 40px 0px;
+}
+
+.button {
+    padding: 40px 0 100px;
+}
+
+.button>span {
+    color: #fff;
+    padding: 0px 16px;
+}
+
+.button>span>a {
+    color: #47ca6f;
+    padding: 7px;
+}
+
+.button>button {
+    /* display: inline-block; */
+    background: #47ca6f;
+    border: 0;
+    padding: 20px 50px;
+    width: auto;
+    color: #fff;
+    text-transform: uppercase;
+    float: right;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* footer */
+#footerBlock {
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+
+}
+
+#footerBlock>article {
+    display: flex;
+    padding: 28px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#footerBlock>article>div:nth-child(1) {
+    flex: 8;
+}
+
+#footerBlock>article>div:nth-child(1)>p>a {
+    color: #47CA6D;
+    text-transform: capitalize;
+}
+
+#footerBlock>article>div:nth-child(2) {
+    flex: 4;
+    text-align: center;
+    margin: 0 -40px;
+
+
+}
+
+#footerBlock>article>div:nth-child(2)>button {
+    padding: 20px 36px;
+    background: #2c683c;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+}
+
+#footerBlock .spanparent {
+    position: relative;
+}
+
+#footerBlock .arrow1 {
+    transform: rotate(270deg);
+
+    position: absolute;
+    padding: 20px;
+    font-size: 17px;
+    background: #47ca6f;
+    text-align: 0;
+    top: -21px;
+    color: #fff;
+    line-height: 26px;
+}
+
+/* 
+media screen css */
+
+@media screen and (max-width: 720px) {
+    #headerBlock>nav>ul>li {
+        width: 100%;
+    }
+
+    #headerBlock>nav>ul {
+        display: block;
+    }
+}
